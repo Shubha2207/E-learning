@@ -9,7 +9,7 @@
 <body>
 
 <div align="center">
-  <h1>User Register Form</h1>
+  <h1>User Registration</h1>
   <form action="<%= request.getContextPath() %>/register" method="post">
    <table style="with: 80%">
     <tr>
@@ -37,6 +37,7 @@
      <td><input type="text" name="phone_no" /></td>
     </tr>
    </table>
+   <br>
    <input type="submit" value="Submit" />
   </form>
  </div>
